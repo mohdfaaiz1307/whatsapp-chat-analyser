@@ -5,6 +5,7 @@ import pandas as pd
 from collections import Counter
 import emoji
 import nltk
+nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 extract=URLExtract()

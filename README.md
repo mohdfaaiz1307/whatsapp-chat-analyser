@@ -2,36 +2,37 @@ WhatsApp Chat Analyser
 Overview
 
 The WhatsApp Chat Analyser is a Python-based application designed to analyze WhatsApp chat data. The application offers two modes of analysis: individual person analysis and group-level analysis. It provides comprehensive statistics and visualizations to help users gain insights into their chat data.
-Features
 
-    Upload Chat Data: Allows users to upload their WhatsApp chat files.
-    Individual/Group Analysis: Choose between analyzing individual chat or group chat.
-    Top Statistics: Displays key statistics including:
+Features :
+
+    - Upload Chat Data: Allows users to upload their WhatsApp chat files.
+    - Individual/Group Analysis: Choose between analyzing individual chat or group chat.
+    - Top Statistics: Displays key statistics including:
         Total messages
         Total words
         Media shared
         Links shared
-    Activity Timeline: Visualizes chat activity with:
+    - Activity Timeline: Visualizes chat activity with:
         Most busy day
         Most busy month
         Weekly, monthly, and daily activity maps
-    User Analysis:
+    - User Analysis:
         Most active users
-    Text Analysis:
+    - Text Analysis:
         Most common words
         Emoji analysis
         Sentiment analysis
 
-Libraries Used
+Libraries Used :
 
-    nltk for natural language processing
-    wordcloud for generating word clouds
-    urlextract for extracting URLs
-    emoji for analyzing emojis
-    streamlit for creating the web application
-    numpy for numerical operations
-    pandas for data manipulation
-    matplotlib and seaborn for data visualization
+    - nltk for natural language processing
+    - wordcloud for generating word clouds
+    - urlextract for extracting URLs
+    - emoji for analyzing emojis
+    - streamlit for creating the web application
+    - numpy for numerical operations
+    - pandas for data manipulation
+    - matplotlib and seaborn for data visualization
 
 Installation
 
